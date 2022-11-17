@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cjwzJr+jaTdq5RYP6FXj6iNK3sVsX0Blx6U5FLMjpdbQaAdCvhJ7bYZZaZ+2SekaTMjVzODjgnPQDW2/bYtpGg==",
+  "dgSpecHash": "Cq1vTZv4pSnBHUeeQrYg3ZelpJjwfhBZZKQMHEaANGu2hT7fiHkY9+VMSSi1gvd1KGqnGgtfbZoaMrjj9TC9WQ==",
   "success": true,
-  "projectFilePath": "/workspace/NovaHR/NovaHR.Application/NovaHR.Application.csproj",
+  "projectFilePath": "/workspace/nova_rh/NovaHR.Application/NovaHR.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

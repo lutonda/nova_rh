@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspace/NovaHR/NovaHR.Contracts/NovaHR.Contracts.csproj": {}
+    "/workspace/nova_rh/NovaHR.Contracts/NovaHR.Contracts.csproj": {}
   },
   "projects": {
-    "/workspace/NovaHR/NovaHR.Contracts/NovaHR.Contracts.csproj": {
+    "/workspace/nova_rh/NovaHR.Contracts/NovaHR.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspace/NovaHR/NovaHR.Contracts/NovaHR.Contracts.csproj",
+        "projectUniqueName": "/workspace/nova_rh/NovaHR.Contracts/NovaHR.Contracts.csproj",
         "projectName": "NovaHR.Contracts",
-        "projectPath": "/workspace/NovaHR/NovaHR.Contracts/NovaHR.Contracts.csproj",
+        "projectPath": "/workspace/nova_rh/NovaHR.Contracts/NovaHR.Contracts.csproj",
         "packagesPath": "/home/gitpod/.nuget/packages/",
-        "outputPath": "/workspace/NovaHR/NovaHR.Contracts/obj/",
+        "outputPath": "/workspace/nova_rh/NovaHR.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gitpod/.nuget/NuGet/NuGet.Config"

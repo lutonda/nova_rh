@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspace/NovaHR/NovaHR.Domain/NovaHR.Domain.csproj",
+      "projectUniqueName": "/workspace/nova_rh/NovaHR.Domain/NovaHR.Domain.csproj",
       "projectName": "NovaHR.Domain",
-      "projectPath": "/workspace/NovaHR/NovaHR.Domain/NovaHR.Domain.csproj",
+      "projectPath": "/workspace/nova_rh/NovaHR.Domain/NovaHR.Domain.csproj",
       "packagesPath": "/home/gitpod/.nuget/packages/",
-      "outputPath": "/workspace/NovaHR/NovaHR.Domain/obj/",
+      "outputPath": "/workspace/nova_rh/NovaHR.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gitpod/.nuget/NuGet/NuGet.Config"

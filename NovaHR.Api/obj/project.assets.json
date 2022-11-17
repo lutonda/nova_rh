@@ -88,6 +88,39 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "NovaHR.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NovaHR.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NovaHR.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NovaHR.Application.dll": {}
+        }
+      },
+      "NovaHR.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NovaHR.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NovaHR.Contracts.dll": {}
+        }
+      },
+      "NovaHR.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NovaHR.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NovaHR.Domain.dll": {}
+        }
       }
     }
   },
@@ -216,10 +249,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "NovaHR.Application/1.0.0": {
+      "type": "project",
+      "path": "../NovaHR.Application/NovaHR.Application.csproj",
+      "msbuildProject": "../NovaHR.Application/NovaHR.Application.csproj"
+    },
+    "NovaHR.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../NovaHR.Contracts/NovaHR.Contracts.csproj",
+      "msbuildProject": "../NovaHR.Contracts/NovaHR.Contracts.csproj"
+    },
+    "NovaHR.Domain/1.0.0": {
+      "type": "project",
+      "path": "../NovaHR.Domain/NovaHR.Domain.csproj",
+      "msbuildProject": "../NovaHR.Domain/NovaHR.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "NovaHR.Application >= 1.0.0",
+      "NovaHR.Contracts >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -229,11 +279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspace/NovaHR/NovaHR.Api/NovaHR.Api.csproj",
+      "projectUniqueName": "/workspace/nova_rh/NovaHR.Api/NovaHR.Api.csproj",
       "projectName": "NovaHR.Api",
-      "projectPath": "/workspace/NovaHR/NovaHR.Api/NovaHR.Api.csproj",
+      "projectPath": "/workspace/nova_rh/NovaHR.Api/NovaHR.Api.csproj",
       "packagesPath": "/home/gitpod/.nuget/packages/",
-      "outputPath": "/workspace/NovaHR/NovaHR.Api/obj/",
+      "outputPath": "/workspace/nova_rh/NovaHR.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gitpod/.nuget/NuGet/NuGet.Config"
@@ -247,7 +297,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/workspace/nova_rh/NovaHR.Application/NovaHR.Application.csproj": {
+              "projectPath": "/workspace/nova_rh/NovaHR.Application/NovaHR.Application.csproj"
+            },
+            "/workspace/nova_rh/NovaHR.Contracts/NovaHR.Contracts.csproj": {
+              "projectPath": "/workspace/nova_rh/NovaHR.Contracts/NovaHR.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

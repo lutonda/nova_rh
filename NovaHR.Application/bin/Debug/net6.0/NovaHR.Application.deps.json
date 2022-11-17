@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "NovaHR.Application/1.0.0": {
+        "dependencies": {
+          "NovaHR.Domain": "1.0.0"
+        },
         "runtime": {
           "NovaHR.Application.dll": {}
+        }
+      },
+      "NovaHR.Domain/1.0.0": {
+        "runtime": {
+          "NovaHR.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "NovaHR.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NovaHR.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

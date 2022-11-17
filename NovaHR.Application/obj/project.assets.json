@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "NovaHR.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NovaHR.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NovaHR.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NovaHR.Domain/1.0.0": {
+      "type": "project",
+      "path": "../NovaHR.Domain/NovaHR.Domain.csproj",
+      "msbuildProject": "../NovaHR.Domain/NovaHR.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "NovaHR.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/gitpod/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspace/NovaHR/NovaHR.Application/NovaHR.Application.csproj",
+      "projectUniqueName": "/workspace/nova_rh/NovaHR.Application/NovaHR.Application.csproj",
       "projectName": "NovaHR.Application",
-      "projectPath": "/workspace/NovaHR/NovaHR.Application/NovaHR.Application.csproj",
+      "projectPath": "/workspace/nova_rh/NovaHR.Application/NovaHR.Application.csproj",
       "packagesPath": "/home/gitpod/.nuget/packages/",
-      "outputPath": "/workspace/NovaHR/NovaHR.Application/obj/",
+      "outputPath": "/workspace/nova_rh/NovaHR.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gitpod/.nuget/NuGet/NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/workspace/nova_rh/NovaHR.Domain/NovaHR.Domain.csproj": {
+              "projectPath": "/workspace/nova_rh/NovaHR.Domain/NovaHR.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

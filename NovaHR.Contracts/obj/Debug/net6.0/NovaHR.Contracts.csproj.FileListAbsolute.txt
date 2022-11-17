@@ -10,3 +10,15 @@
 /workspace/NovaHR/NovaHR.Contracts/obj/Debug/net6.0/refint/NovaHR.Contracts.dll
 /workspace/NovaHR/NovaHR.Contracts/obj/Debug/net6.0/NovaHR.Contracts.pdb
 /workspace/NovaHR/NovaHR.Contracts/obj/Debug/net6.0/ref/NovaHR.Contracts.dll
+/workspace/nova_rh/NovaHR.Contracts/bin/Debug/net6.0/NovaHR.Contracts.deps.json
+/workspace/nova_rh/NovaHR.Contracts/bin/Debug/net6.0/NovaHR.Contracts.dll
+/workspace/nova_rh/NovaHR.Contracts/bin/Debug/net6.0/NovaHR.Contracts.pdb
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/NovaHR.Contracts.csproj.AssemblyReference.cache
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/NovaHR.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/NovaHR.Contracts.AssemblyInfoInputs.cache
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/NovaHR.Contracts.AssemblyInfo.cs
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/NovaHR.Contracts.csproj.CoreCompileInputs.cache
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/NovaHR.Contracts.dll
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/refint/NovaHR.Contracts.dll
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/NovaHR.Contracts.pdb
+/workspace/nova_rh/NovaHR.Contracts/obj/Debug/net6.0/ref/NovaHR.Contracts.dll
