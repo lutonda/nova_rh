@@ -1,0 +1,12 @@
+/workspace/NovaHR/NovaHR.Application/bin/Debug/net6.0/NovaHR.Application.deps.json
+/workspace/NovaHR/NovaHR.Application/bin/Debug/net6.0/NovaHR.Application.dll
+/workspace/NovaHR/NovaHR.Application/bin/Debug/net6.0/NovaHR.Application.pdb
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/NovaHR.Application.csproj.AssemblyReference.cache
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/NovaHR.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/NovaHR.Application.AssemblyInfoInputs.cache
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/NovaHR.Application.AssemblyInfo.cs
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/NovaHR.Application.csproj.CoreCompileInputs.cache
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/NovaHR.Application.dll
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/refint/NovaHR.Application.dll
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/NovaHR.Application.pdb
+/workspace/NovaHR/NovaHR.Application/obj/Debug/net6.0/ref/NovaHR.Application.dll

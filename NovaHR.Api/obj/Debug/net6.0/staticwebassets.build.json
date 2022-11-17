@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+qHRP3vmUY0VL86Mzt+T/L7CRIsIT5mSau/3MYsoY0k=",
+  "Source": "NovaHR.Api",
+  "BasePath": "_content/NovaHR.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
