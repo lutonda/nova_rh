@@ -1,0 +1,23 @@
+{
+  "name": "nova_rh",
+  "version": "3.0.1",
+  "description": "Nova RH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb  && rm packages-microsoft-prod.deb && sudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0 && sudo apt-get update && sudo apt-get install -y aspnetcore-runtime-6.0",
+    "start": "dotnet run --project NovaHR.Api"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lutonda/nova_rh.git"
+  },
+  "author": "hiperbite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lutonda/nova_rh/issues"
+  },
+  "homepage": "https://github.com/lutonda/nova_rh#readme"
+}
